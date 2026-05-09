@@ -1,6 +1,3 @@
-# Face_Emotion_detection
-# Project Title
-
 ## Real-Time Multi-Face Emotion Detection System
 
 ---
@@ -21,15 +18,7 @@
 
 # Problem Statement
 
-* Human emotions play an important role in communication and behavior analysis.
-* Traditional systems cannot efficiently monitor emotions in real time for multiple individuals simultaneously.
-* The objective of this project is to build a real-time system capable of:
-
-  * Detecting multiple faces
-  * Tracking individuals continuously
-  * Predicting facial emotions accurately
-  * Displaying confidence scores in live video feed
-
+* Human emotions are important for communication and behavior analysis, but traditional systems struggle to monitor multiple individuals in real time. This      project develops a real-time AI system capable of detecting, tracking, and predicting facial emotions with confidence scores through live webcam input.
 ---
 
 # Dataset
@@ -154,13 +143,7 @@ pip install matplotlib
 pip install deep-sort-realtime
 ```
 
-## Step 3: Run the Project
-
-```bash
-python app.py
-```
-
-## Step 4: Webcam Activation
+## Step 3: Webcam Activation
 
 * The webcam opens automatically.
 * Real-time emotion detection starts immediately.
@@ -175,7 +158,7 @@ python app.py
 * Performs real-time facial emotion prediction.
 * Tracks faces continuously using Deep SORT.
 * Displays confidence scores for each prediction.
-* Achieves stable real-time AI inference.
+
 
 ## Conclusion
 
@@ -190,11 +173,9 @@ python app.py
 * Improve low-light detection performance
 * Add emotion history analytics dashboard
 * Integrate voice emotion recognition
-* Deploy using Streamlit or Flask
-* Add GPU acceleration
 * Store emotion logs in database
 * Improve tracking stability and FPS optimization
-* Add emotion trend visualization
+
 
 ---
 
